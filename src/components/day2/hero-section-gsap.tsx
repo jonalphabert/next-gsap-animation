@@ -34,22 +34,22 @@ export default function HeroSectionGSAP () {
     })
     return <>
         <section className="flex flex-col items-center pt-24">
-            <div className="text-center flex gap-8">
-                {"Upscale Your Images,".split(" ").map((char, index) => <span key={index} className={`text-7xl font-extrabold mb-4 hero-cta ${index === 2 ? "text-blue-600" : ""}`}>{char}</span>)}
+            <div className="text-center flex gap-2 sm:gap-4 lg:gap-8 mb-2 sm:mb-8 px-2">
+                {"Upscale Your Images,".split(" ").map((char, index) => <span key={index} className={`text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold hero-cta ${index === 2 ? "text-blue-600" : ""}`}>{char}</span>)}
             </div>
-            <div className="text-center flex gap-8 mb-8">
-                {"Not Your Pixels.".split(" ").map((char, index) => <span key={index} className="text-7xl font-extrabold mb-4 hero-cta">{char}</span>)}
+            <div className="text-center flex gap-4 lg:gap-8 mb-2 sm:mb-8 px-2">
+                {"Not Your Pixels.".split(" ").map((char, index) => <span key={index} className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold hero-cta">{char}</span>)}
             </div>
-            <p id="hero-description" className="text-center text-xl w-4xl mb-8">Transform your low-resolution photos into stunning, high-definition masterpieces instantly with our powerful AI. Perfect for photographers, designers, and everyone in between. And all this magic just on <strong className="text-blue-600">one click!</strong></p>
+            <p id="hero-description" className="text-center text-base md:text-xl w-full lg:w-4xl mb-8 px-2">Transform your low-resolution photos into stunning, high-definition masterpieces instantly with our powerful AI. Perfect for photographers, designers, and everyone in between. And all this magic just on <strong className="text-blue-600">one click!</strong></p>
             <div className="flex justify-center items-center gap-4 mb-24">
-                <div className="hero-button cursor-pointer text-white bg-blue-800 rounded-md px-8 py-2">Start Free Trial</div>
-                <div className="hero-button cursor-pointer text-white underline rounded-md px-8 py-2">See how this work &rarr;</div>
+                <div className="hero-button cursor-pointer text-white bg-blue-800 rounded-md px-2 md:px-8 py-2">Start Free Trial</div>
+                <div className="hero-button cursor-pointer text-white underline rounded-md px-2 md:px-8 py-2">See how this work &rarr;</div>
             </div>
             <div className="flex justify-center items-center gap-4">
-                <div className="relative left-12">
+                <div className="relative left-6">
                     <Image className="hero-image" src="/blurred-image.png" alt="hero-image" width={300} height={300} />
                 </div>
-                <div>
+                <div className="relative -left-6 -z-10">
                     <Image className="hero-image-2" src="/upscale-image.png" alt="hero-image" width={600} height={600} />
                 </div>
             </div>
