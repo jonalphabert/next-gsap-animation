@@ -1,0 +1,23 @@
+<svg width="689" height="699" viewBox="0 0 689 699" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group 1">
+    <path id="path-1" d="M686.581 699.493L684.328 362.001C689.486 335.799 680.904 283.522 605.305 284.027C529.707 284.531 343.478 285.774 259.813 286.333C237.647 286.481 193.226 273.477 192.871 220.278C192.516 167.08 192.06 98.7811 191.876 71.2817C187.916 52.3077 170.896 14.4205 134.497 14.6635C98.0977 14.9065 26.3326 15.3855 -4.99999 15.5947"
+      stroke="white" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g id="ball-1" filter="url(#filter0_f_29_79)">
+      <circle r="8" fill="#D9D9D9">
+        <animateMotion dur="18s" repeatCount="indefinite" rotate="auto">
+          <mpath href="#path-1"/>
+        </animateMotion>
+      </circle>
+    </g>
+  </g>
+
+  <defs>
+    <!-- perbesar bounding box filter -->
+    <filter id="filter0_f_29_79" x="-1000" y="-1000" width="3000" height="3000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="3.4" result="effect1_foregroundBlur_29_79"/>
+    </filter>
+  </defs>
+</svg>

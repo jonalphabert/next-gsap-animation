@@ -12,7 +12,7 @@ export default function StaggeredAnimation() {
             gsap.fromTo(
                 ".staggered-text-animation", 
                 {opacity: 0, y: 100},
-                { opacity: 1, y: 0, duration: 1, stagger: 0.1, ease: "back.out" ,repeat: -1, yoyo: true }
+                { opacity: 1, y: 0, duration: 1, stagger: 0.1, ease: "back.out" ,repeat: -1, yoyo: true, repeatDelay: 3}
             );
         },
     );
