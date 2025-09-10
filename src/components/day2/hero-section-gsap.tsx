@@ -11,16 +11,6 @@ export default function HeroSectionGSAP () {
     useGSAP(() => {
         const tl = gsap.timeline();
 
-        // tl
-        //     .addLabel("start")
-        //     .fromTo(".hero-cta", { opacity: 0, scale: 0, filter: "blur(10px)" }, { opacity: 1, scale:1, duration: 1, filter: "blur(0px)",stagger: 0.3, ease: "back.out"})
-        //     .addLabel("description")
-        //     .from("#hero-description", { opacity: 0, y: 10, scale: 0.8,duration: 1, ease: "power3.inOut" }, "-=2")
-        //     .addLabel("button")
-        //     .from(".hero-button", { opacity: 0, y: 10, scale: 0.8, duration: 0.8, ease: "back.out(1.7)", stagger: 0.3 }, "-=1.5")
-        //     .addLabel("image")
-        //     .from(".hero-image", { opacity: 0, filter: "blur(10px)", rotate: 15, duration: 1, ease: "power3.inOut" }, "-=1")
-        //     .from(".hero-image-2", { opacity: 0, filter: "blur(10px)", rotate: -15, duration: 1, ease: "power3.inOut" }, "-=0.3")
         tl.addLabel("start")
             .fromTo(".hero-cta", 
                 { opacity: 0, scale: 0.8, filter: "blur(10px)" }, 
