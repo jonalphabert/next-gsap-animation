@@ -50,7 +50,7 @@ export default function SVGBackgroundAnimation() {
             </svg>
         </div>
 
-        <div className='absolute top-0 right-0 w-[240px] sm:w-[480px] md:w-[720px] lg:w-[960px] xl:w-[1280px] block -z-10'>
+        <div className='absolute top-0 right-0 w-[85vw] block -z-10'>
             <svg width="1957" height="849" viewBox="0 0 1957 849" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
                 <g id="Frame 7">
                     <path id="path-3" d="M1957 421.373H912.5C901 421.972 878 429.01 878 452.372C878 475.734 878 683.747 878 784.833C880.167 796.963 877.5 821.224 849.5 821.224H347.5C333.833 823.62 306.5 821.853 306.5 795.615C306.5 769.378 306.5 661.882 306.5 611.414C307.333 603.477 303.3 587.603 280.5 587.603C257.7 587.603 141 587.603 85.5 587.603C76 587.753 57 583.559 57 565.589C57 547.618 57 223.693 57 4"

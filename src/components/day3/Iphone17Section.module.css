@@ -1,0 +1,7 @@
+.iphone-17-color {
+    background: linear-gradient(90deg, #a977c8, #6f8cc7, #639a47);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
