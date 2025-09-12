@@ -1,3 +1,5 @@
+"use client";
+
 import AirpodsSection from "@/components/day3/AirpodsSection";
 import AppleNavbar from "@/components/day3/AppleNavbar"
 import Footer from "@/components/day3/Footer";
@@ -9,7 +11,29 @@ import WatchUltraSection from "@/components/day3/WacthUltraSection";
 import WatchIntroSection from "@/components/day3/WatchIntroSection";
 import WacthSESection from "@/components/day3/WatchSESection";
 
+import Lenis from "lenis";
+import { useEffect } from "react";
+
 export default function dayTwoPage() {
+    useEffect(() => {
+        const lenis = new Lenis({
+            duration: 2,
+            easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            smoothWheel: true,
+        });
+
+        function raf(time: number) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+
+        return () => {
+        lenis.destroy();
+        };
+    }, []);
+
     return (
         <div className='min-h-screen relative z-0 font-inter bg-black'>
             <AppleNavbar />
