@@ -13,8 +13,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "GSAP Learning Day 2",
-  description: "Building Hero Section with GSAP Animation",
+  title: "GSAP Learning | Apple Website Clone",
+  description: "Building Apple Website Clone with GSAP Animation",
 };
 
 export default function RootLayout({
