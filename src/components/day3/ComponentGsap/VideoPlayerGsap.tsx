@@ -54,7 +54,7 @@ export default function VideoPlayerGsap({ src, classVideo, loop=true, showContro
 
   return (
     <div className={`${classContainer} video-player-gsap mx-auto`}>
-        {showControl && <div className="absolute top-5 right-5 w-8 h-8 rounded-full flex justify-center items-center bg-gray-600 cursor-pointer z-50" onClick={handleVideo}>
+        {showControl && <div className="absolute top-5 right-5 w-8 h-8 rounded-full flex justify-center items-center bg-gray-600 cursor-pointer z-20" onClick={handleVideo}>
             {!isPlaying ? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-play-icon lucide-play"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg> :
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-pause-icon lucide-pause"><rect x="14" y="3" width="5" height="18" rx="1"/><rect x="5" y="3" width="5" height="18" rx="1"/></svg>}
         </div>}
